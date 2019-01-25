@@ -1,4 +1,4 @@
-﻿# Stuterndev - A Full Stack URL Shortener
+﻿# Stuterndev - A URL Shortener
 
 A simple full stack app for creating short urls like bit.ly
 
