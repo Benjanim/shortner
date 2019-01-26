@@ -1,4 +1,4 @@
-# puny.li - A Full Stack URL Shortener
+# stutern - URL Shortener
 
 A simple full stack app for creating short urls like bit.ly
 
