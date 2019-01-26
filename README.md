@@ -1,8 +1,8 @@
-﻿# Stuterndev - A URL Shortener
+# puny.li - A Full Stack URL Shortener
 
 A simple full stack app for creating short urls like bit.ly
 
-puny.li/cg
+Stutern
 
 * [x] Create Server Folder
   * [x] Init npm
@@ -20,7 +20,23 @@ puny.li/cg
   * [x] Create db folder
     * [x] Create db connection
   * [ ] Create route to add url to db `/api/url`
-    * [x] validate stuterndev with joi
+    * [x] validate stutern with joi
       * url
       * name alphanum, min 1 chars, max 100 chars
-   
+    * [x] Make sure name is not in use
+      * [x] insert url into db
+      * [x] respond with inserted message
+    * [x] Respond with error if in use
+* [x] Submit form - fetch POST to server
+  * [x] Show any errors
+  * [x] Show create link on page
+* [x] Create route to redirect a url
+  * [x] Search by name - if found, redirect to url
+    * [x] If not found, show 404
+* [ ] Deploy!
+* [ ] Alias domain
+
+## Stretch
+* [ ] Log links to a click
+  * [ ] Date/Time
+* [ ] View link page to see number of clicks
